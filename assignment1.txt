@@ -1,0 +1,128 @@
+
+QUESTION:1
+program to search for a paticular character in a string 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paticular character in a string</title>
+
+    <script>
+
+         let data ="hello";
+         console.log(data.length);
+         console.log(data.substr(0)); 
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+QUESTION:2
+program to convert minutes to seconds
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converts minutes to seconds</title>
+     </head>
+<body>
+    
+
+    <script type = "text/javascript">
+        function convertMinutestoSeconds(minutes) 
+        {
+          return Math.floor(minutes * 60);
+        }
+        var minutesToSeconds = convertMinutestoSeconds(2); // convert minutes to second javascript 
+        document.write( "Result of converting minutes to seconds :- " + minutesToSeconds ); 
+     
+      </script> 
+    
+</body>
+</html>
+
+QUESTION:3
+program to  search for a element in a array of strings
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let data = ["keyboaRD" , "mouse", "lapee","monitor"];
+        data.push("mic");
+         let numbers = [23, 45 ,78,89]
+
+          for(let i=0;i < data.length;i++)
+           { 
+              console.log(data[i]);
+            }
+        data.forEach(function (ele) {
+        console.log(ele)
+        });
+    </script>
+</body>
+</html>
+
+
+
+QUESTION:4
+program to display only elements contaaining 'a' in them from a array
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+         let data = "strombreaker";
+         console.log("length is " +  data.length);
+         console.log(data.replace("r ","a"));
+        
+    </script>
+</body>
+</html>
+
+
+QUESTION:5
+print an array in reverse order
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        console.log(fruits.reverse());
+    </script>
+</body>
+</html>
